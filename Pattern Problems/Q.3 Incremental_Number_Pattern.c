@@ -1,18 +1,20 @@
 #include <stdio.h>
 
-int main(){
-  int n;
-  
-  printf("Enter the height of the pattern: ");
-  scanf("%d", &n);
-  
+int main() {
+    int N, i, j;
 
-  for(i=0;i<n;i++)
-    for(j=0;j<=i;j++)
-      int a=1;
-      printf("a");
-      a=a+1;
-    printf("\n");
+    // Input the number of rows
+    printf("Enter the number of rows: ");
+    scanf("%d", &N);
 
-  return 0;
+    // Loop to generate the pattern
+    for (i = 1; i <= N; i++) {
+        for (j = 1; j <= i; j++) {
+            printf("%d", j);
+        }
+        printf("\n"); // Move to the next line after each row
+    }
+
+    return 0;
 }
+
