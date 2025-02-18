@@ -1,11 +1,11 @@
 # Taking Input and Output
 
-#### (i). Using array representing word as a whole
+(i). Using array representing word as a whole
 
-#### (ii). Using array representing word as set of characters
+(ii). Using array representing word as set of characters
 * Null Pointer
 
-#### (iii). Using gets and puts function
+(iii). Using gets and puts function
 
   #include<stdio.h>  
   #include <string.h>  
